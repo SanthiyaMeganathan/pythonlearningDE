@@ -35,6 +35,14 @@ for n in nums:
     print(n)
 
 
+#placeholder for future code
+
+for i in range(5):
+    pass # future code will come here
+
+
+
+
     
 
 
