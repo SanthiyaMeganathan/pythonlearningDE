@@ -15,4 +15,16 @@ intersection_uber=uber_city.intersection(uber_city2)
 print("intersection",intersection_uber)
 diff_union=uber_city2.difference(uber_city)
 print(diff_union)
+uber_city.add("karur")
+print("newly add:", uber_city )
+uber_city.remove("chennai")
+print("removed", uber_city)
+
+#impossible to get anything  by index. and cannot update directly , u need to remove and add
+#print(uber_city[1])
+#uber_city.remove("uber")
+#it will cause erroe when you try to remove something that is not there
+# to overcome with the discard.
+
+uber_city.discard("jharkand")
 
