@@ -64,3 +64,10 @@ mixed=["gowtham",33,155,True]
 for a in mixed:
     print(a)
 
+
+#how do i know the exact location of the item in the list
+
+for i, loc in enumerate(recent_locations):
+    print(f"index is {i} for location {loc}")
+    
+
