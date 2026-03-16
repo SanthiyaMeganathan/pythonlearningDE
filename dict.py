@@ -65,8 +65,13 @@ for trip in trips:
 
 students={
     "student1":{"name":"gowtham","age":21,"edu":"cse"},
-    "student2":{"name":"jeeva","age":22,"edu":"it"}
-    "student3":{"name":"harith","age":19,"edu":"ece"}
+    "student2":{"name":"jeeva","age":22,"edu":"it"},
+    "student3":{"name":"harith","age":19,"edu":"ece"},
     "student4":{"name":"vamshi","age":17,"edu":"csbs"}
 
 }
+
+print("student1 edu is ",students["student1"])
+
+for stu_name ,age in students.items():
+    print(stu_name, "age is" , age["age"])
