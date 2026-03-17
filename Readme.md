@@ -23,7 +23,8 @@ Proper data structuring is the backbone of efficient programming. Here is how we
 
 #### 📝 Lists (list.py)
 - **What it is:** An ordered, **mutable** (changeable) collection of items. Think of it like a shopping list where you can add, cross off, or re-order items.
-- **Key Methods Learned:** ppend() (add to end), insert() (add at specific position), emove(), pop().
+- **Key Methods Learned:** ppend() (add to end), insert() (add at specific position), 
+emove(), pop().
 - **Why use it?** When you need an ordered sequence of data that might grow, shrink, or change over time.
 
 #### 🔒 Tuples (	uple.py)
@@ -37,7 +38,8 @@ Proper data structuring is the backbone of efficient programming. Here is how we
 
 #### 🎯 Sets (set.py)
 - **What it is:** An unordered collection of **unique** items. No duplicates allowed!
-- **Key Methods Learned:** dd(), emove(), union(), intersection().
+- **Key Methods Learned:** dd(), 
+emove(), union(), intersection().
 - **Why use it?** To instantly strip duplicates from a list or to perform rapid mathematical set operations (like finding common elements between two groups of users).
 
 ---
@@ -73,12 +75,7 @@ OOP is about modeling real-world entities into code using Classes and Objects.
 
 ---
 
-## 💡 Practical Mini-Projects
-Learning is cemented by doing. Here are the practical simulations built applying the above concepts:
-- 🧾 **illingCalculation.py**: Automated billing calculation mapping variables and arithmetic operators.
-- 🍔 **oodorder.py**: A CLI interactive food ordering system leveraging loops, conditionals, and user inputs.
-- 📱 **mobilerecharge.py**: Simulating telecom plan selections and logical validations.
-- 🎟️ **movieticket.py**: A ticket booking script handling age constraints, pricing, and availability using advanced if/elif/else structures.
+
 
 ---
 *Built with ❤️ and Python. Documenting the path from basics to advanced structural execution.*
